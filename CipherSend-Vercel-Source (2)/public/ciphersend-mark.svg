@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>CipherSend</title>
+  <path d="M24 3.75 41 10v12.1c0 10.3-6.9 18.6-17 22.15C13.9 40.7 7 32.4 7 22.1V10l17-6.25Z" fill="#0b181b" stroke="#82f0d0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M15 24h15m-5-6 6 6-6 6" stroke="#82f0d0" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="14" cy="24" r="2" fill="#5dd9eb"/>
+</svg>

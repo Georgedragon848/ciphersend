@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ciphersend-signaling
+    runtime: node
+    plan: free
+    numInstances: 1
+    buildCommand: pnpm install --frozen-lockfile --prod=false && pnpm signal:build
+    startCommand: pnpm signal:start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CIPHERSEND_ALLOWED_ORIGINS
+        sync: false
